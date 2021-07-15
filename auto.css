@@ -39,18 +39,5 @@
 50% {opacity:0; } 
 100% {opacity:1; } 
 } 
-#box { 
-width:100px; 
-height:100px; 
-background-color:#000; 2
-animation: hide_show 10s; 
--o-animation: hide_show 10s; /* Opera */ 
--ms-animation: hide_show 10s; /* Microsoft */ 
--moz-animation: hide_show 10s; /* Firefox */ 
--webkit-animation: hide_show 10s; /* Safari und Chrome */ 
-animation-iteration-count:infinite; 
--moz-animation-iteration-count:infinite; /* Firefox */ 
--webkit-animation-iteration-count:infinite; /* Safari und Chrome */ 
--o-animation-iteration-count:infinite; /* Opera */ 
-}
+
  
