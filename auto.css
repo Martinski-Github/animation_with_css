@@ -10,6 +10,8 @@
 }
 #key {
     background-image: url("img/keyon.png");
+    height: 50px;
+    width: 50px;
 
 }
 @-o-keyframes hide_show {
