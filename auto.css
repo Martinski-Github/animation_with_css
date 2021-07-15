@@ -1,0 +1,54 @@
+#backgroundbox {
+    height: 176px;
+    width: 600px;
+    background-image: url("img/beachbackground.png");
+}
+#auto {
+    background-image: url("img/redcar.png");
+    height: 120px;
+    width: 200px;
+}
+#key {
+    background-image: url("img/keyon.png");
+
+}
+@-o-keyframes hide_show {
+/* Opera */ 0% {opacity:1; } 
+50% {opacity:0; } 
+100% {opacity:1; } 
+} 
+@-ms-keyframes hide_show { /* Microsoft */ 
+0% {opacity:1; } 
+50% {opacity:0; } 
+100% {opacity:1; } 
+} 
+@-moz-keyframes hide_show { /* Firefox */ 
+0% {opacity:1; } 
+50% {opacity:0; } 
+100% {opacity:1; } 
+} 
+@-webkit-keyframes hide_show { /* Safari und Chrome*/ 
+0% {opacity:1; } 
+50% {opacity:0; } 
+100% {opacity:1; } 
+} 
+@keyframes hide_show { 
+0% {opacity:1; } 
+50% {opacity:0; } 
+100% {opacity:1; } 
+} 
+#box { 
+width:100px; 
+height:100px; 
+background-color:#000; 2
+animation: hide_show 10s; 
+-o-animation: hide_show 10s; /* Opera */ 
+-ms-animation: hide_show 10s; /* Microsoft */ 
+-moz-animation: hide_show 10s; /* Firefox */ 
+-webkit-animation: hide_show 10s; /* Safari und Chrome */ 
+animation-iteration-count:infinite; 
+-moz-animation-iteration-count:infinite; /* Firefox */ 
+-webkit-animation-iteration-count:infinite; /* Safari und Chrome */ 
+-o-animation-iteration-count:infinite; /* Opera */ 
+}
+ 
